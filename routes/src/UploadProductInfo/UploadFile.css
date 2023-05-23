@@ -1,0 +1,117 @@
+section {
+    padding: 2rem 0;
+  }
+  
+  .LabelAddImage {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted black;
+    border-radius: 20px;
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  .LabelAddImage span {
+    font-weight: lighter;
+    font-size: small;
+    padding-top: 0.5rem;
+  }
+  
+  .InputForImages {
+    display: none;
+  }
+  
+  
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    margin: 1rem 0.5rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  }
+  
+  .image button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: lightcoral;
+  }
+  
+  .image button:hover {
+    background-color: red;
+  }
+  
+  .image p {
+    padding: 0 0.5rem;
+    margin: 0;
+  }
+  
+  .upload-btn {
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+    margin-left: 350px;
+    border: none;
+    border-radius: 5px;
+    width: 15rem;
+    height: 3rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(183, 235, 183);
+  }
+  
+  .LabelAddImage:hover,
+  .upload-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+  
+  .error {
+    text-align: center;
+  }
+  
+  .error span {
+    color: red;
+  }
+.InputDataBox{
+    width: 200px;
+    
+    /* background-color: blueviolet; */
+}
+.SingleDataContainer{
+    /* background-color: antiquewhite; */
+    display: flex;
+    margin-left: 15px;
+    flex-direction:row;
+    height: 25px;
+    justify-content:space-between;
+    width: 500px;
+    margin-bottom: 15px;
+   align-items: flex-start;
+  }
+
+.textInput{
+    resize: none;
+    height: 20px;
+    overflow :hidden;  
+    /* size: 25px;
+    margin-left: 100px; */
+}
+
+.AllDataTable{
+  display: flex;
+  /* flex-direction: column; */
+}

@@ -1,0 +1,126 @@
+.ProductImage{
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductBigImage{
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 2px solid;
+    border-color: gray;
+}
+
+.ProductSmallImageGroup{
+ width: 400px;
+ height: 70px;
+ margin-left: 20px;
+ overflow:auto;
+ white-space: nowrap;
+ overflow-y: hidden; 
+ border: 2px solid;
+ border-color: gray;
+ /* border: 2px solid;
+ border-radius: 4px;
+ border-color: rgb(43, 39, 39); */
+ overflow-x:auto;
+align-items: center; 
+
+}
+.ProductSmallImage{
+    width: 61px;
+    height:59px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.ImageAndInfo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px ;
+}
+.OnlyInfo{
+    margin-left: 15px;
+}
+
+.OnlyInfoDesc{
+    font-size: 17px;
+    margin-right: 85px;
+}
+.BidLowButton{
+    margin-right: 3px;
+  font-size: 30px;
+  margin-top: 15px;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 10px 10px 80px  rgba(0,0,0,0.1);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(28, 175, 28);
+padding-top: 5px;
+}
+
+.BidLowButton:hover{
+    margin-right: 3px;
+    font-size: 30px;
+  margin-top: 15px;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  /* box-shadow: 5px 5px 2px  rgb(151, 227, 151); */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(8, 142, 8);
+padding-top: 5px;
+}
+
+.BidHighButton{
+    font-size: 30px;
+    margin-top: 15px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 10px 10px 80px  rgba(0,0,0,0.1);
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      cursor: pointer;
+      background-color: rgb(228, 68, 68);
+  padding-top: 5px;
+  }
+  
+  .BidHighButton:hover{
+      font-size: 30px;
+    margin-top: 15px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    /* box-shadow: 5px 5px 2px  rgb(151, 227, 151); */
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      cursor: pointer;
+      background-color: rgb(225, 17, 17);
+  padding-top: 5px;
+  }
+  .BidButton{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .BuyNowButton{
+    margin-right: 400px;
+    font-size: 20px;
+    margin-top: 15px;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    box-shadow: 10px 10px 80px  rgba(0,0,0,0.1);
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: rgb(120, 133, 170);
+  padding-top: 5px;
+  padding-bottom: 3px;
+  }
+
