@@ -26,9 +26,14 @@ router.get("/getdata/:id", async(req, res)=>{
   const objectId = req.params.id;
 
   const {productSellerEmail} = req.body;
- 
+  const query = {
+    $and: [
+      { productSellerEmail :{ $ne : objectId}},
+      { productSold: false }
+    ]
+  };
   try {
-    const allProductData = await product.find({productSellerEmail :{ $ne : objectId}});
+    const allProductData = await product.find(query);
     res.status(201).json(allProductData);
     // console.log(productSellerEmail);
     // console.log(allProductData);
